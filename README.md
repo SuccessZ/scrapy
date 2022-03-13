@@ -4,7 +4,7 @@
 
 1. 运行前请保证系统上安装有MySQL数据库，本项目使用数据库版本为 `mysql-8.0.27`		
 
-2. 请修改 `./_Scrapy/spiders/spiders/spiders/settings.json`文件，将本地数据库的账号密码正确输入其中，并根据自己喜好设置数据库与表的名称。
+2. 请修改 `./spiders/spiders/spiders/settings.json`文件，将本地数据库的账号密码正确输入其中，并根据自己喜好设置数据库与表的名称。
 
 3. 默认设置为：
    1. 数据库：productData ；
@@ -16,7 +16,7 @@
 
 #### 运行文件
 
-1. 运行文件为 `./_Scrapy/main.py`
+1. 运行文件为 `./spiders/main.py`
 2. 直接运行该运行文件即可
 3. 请自行在文件中添加/更改 `time.sleep()`，以免对爬取目标网页造成不利影响。
 
